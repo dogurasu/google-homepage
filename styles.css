@@ -20,10 +20,9 @@
 }
 
 #topbar a:hover, #topbar a:active {
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-}
 #topbar {
     width: 100%;
     font-size: 13px;
@@ -46,13 +45,44 @@
 }
 #botbar {
     width: 100%;
-    font-size: 12px;
-    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-family: arial, sans-serif;
 }
+
 #botbar a:link, #botbar a:visited {
     color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 #botbar a:hover, #botbar a:active {
-    text-decoration: none;
+    text-decoration: underline;
+}
+
+#botbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f2f2f2;
+    border: 1px solid #e8e8e8;
+    position: fixed; left: 0px;
+    bottom: 0;
+    width: 100%;
+}
+li.BL {
+    float: left;
+}
+li.BR {
+    float: right;
+}
+.Br {
+    margin: 0 3px
+}
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #f2f2f2;
+    margin: 5px 5px 5px 5px;
+    font-size: small;
+}
+

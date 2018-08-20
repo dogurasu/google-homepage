@@ -1,18 +1,23 @@
-.search {
+#search {
     width: 600px;
     height: 40px;
     display: block;
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
+    padding: 12px 20px;
+    font-size: medium;
 }
+
 .center {
     display: block;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
 }
+
+
 
 #topbar a:link, #topbar a:visited {
     color: rgb(0, 0, 0);
@@ -27,17 +32,18 @@
     width: 100%;
     font-size: 13px;
     font-family: arial, sans-serif;
+    margin: 25px 12px 14px 16px;
 }
 #TL_links {
     float: none;
-    margin: 20px 0px 0px 20px;
+    margin: 20px 10px 0px 20px;
 }
 #TL_links .abt {
     margin: 0px 15px 0px 0px;
 }
 #TR_links {
     float: right;
-    margin: 0px 20px 0px 0px;
+    margin: 0px 100px 0px 0px;
     
 }
 #TR_links .mail {
